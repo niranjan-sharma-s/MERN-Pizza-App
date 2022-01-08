@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 //const mongoURL = "mongodb+srv://DBadmin:DBadmin@cluster0.izmh6.mongodb.net/mern-pizza-DB"
 
-const mongoURL = "mongodb+srv://DBadmin:DBadmin@cluster0.izmh6.mongodb.net/mern-pizza-DB?retryWrites=true&w=majority/mern-pizza-DB"
+const mongoURL = "mongodb+srv://DBadmin:DBadmin@cluster0.izmh6.mongodb.net/mern-pizza-DB?retryWrites=true&w=majority"
 
 mongoose.connect(mongoURL, {
     useUnifiedTopology:true, 
